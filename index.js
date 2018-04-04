@@ -35,7 +35,3 @@ function makeInt(n, x) {
 function preserveDecimal(n) {
   return parseFloat(n);
 }
-
-function preserveDecimal(n) {
-  return parseFloat('sfsdf');
-}
