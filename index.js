@@ -25,15 +25,15 @@ function dec(n) {
 }
 
 function makeInt(n) {
+  if (parseInt(n) === true) {
+    return n;
+  } else
+  
   return parseInt(n, 10);
 }
 
 function makeInt(n) {
   return parseInt(n);
-}
-
-function makeInt(n) {
-  return parseInt('sdf', 10);
 }
 
 function preserveDecimal(n) {
