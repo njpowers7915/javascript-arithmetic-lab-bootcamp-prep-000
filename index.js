@@ -25,10 +25,6 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  if (parseInt(n) === true) {
-    return n;
-  } else
-  
   return parseInt(n, 10);
 }
 
